@@ -46,7 +46,7 @@ def mode_converter_spec_12(**overrides) -> spec.ModeConverterSpec:
 
 
 def mode_converter_spec_13(**overrides) -> spec.ModeConverterSpec:
-  """Design spec for a first-order to second-order mode converter."""
+  """Design spec for a first-order to third-order mode converter."""
   defaults = spec.ModeConverterSpec(
       left_wg_width=200 * u.nm,
       left_wg_mode_padding=750 * u.nm,
@@ -67,7 +67,7 @@ def mode_converter_spec_13(**overrides) -> spec.ModeConverterSpec:
 
 
 def mode_converter_spec_23(**overrides) -> spec.ModeConverterSpec:
-  """Design spec for a first-order to second-order mode converter."""
+  """Design spec for a second-order to third-order mode converter."""
   defaults = spec.ModeConverterSpec(
       left_wg_width=400 * u.nm,
       left_wg_mode_padding=750 * u.nm,
